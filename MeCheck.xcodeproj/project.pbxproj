@@ -29,6 +29,23 @@
 		914B7FE12D8CC9040024B2B5 /* MeCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		914B7FF62D8CCFA90024B2B5 /* Exceptions for "MeCheckUITests" folder in "MeCheck" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				README.md,
+			);
+			target = 914B7FC42D8CC9030024B2B5 /* MeCheck */;
+		};
+		914B7FF72D8CCFA90024B2B5 /* Exceptions for "MeCheckUITests" folder in "MeCheckUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				README.md,
+			);
+			target = 914B7FE02D8CC9040024B2B5 /* MeCheckUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		914B7FC72D8CC9030024B2B5 /* MeCheck */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -42,6 +59,10 @@
 		};
 		914B7FE42D8CC9040024B2B5 /* MeCheckUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				914B7FF62D8CCFA90024B2B5 /* Exceptions for "MeCheckUITests" folder in "MeCheck" target */,
+				914B7FF72D8CCFA90024B2B5 /* Exceptions for "MeCheckUITests" folder in "MeCheckUITests" target */,
+			);
 			path = MeCheckUITests;
 			sourceTree = "<group>";
 		};
